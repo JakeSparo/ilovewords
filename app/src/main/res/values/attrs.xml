@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SketchView">
+        <attr name="background_color" format="color"/>
+        <attr name="size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="myView">
+        <attr name="fuck_textColor" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,4 @@
+#Mon Apr 23 00:36:50 CST 2018
+base.0=/Users/kevin/WorkSpace/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4
+renamed.0=classes.dex
+file.0=/Users/kevin/WorkSpace/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex

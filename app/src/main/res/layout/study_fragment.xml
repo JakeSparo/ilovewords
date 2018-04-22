@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/whole_container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:padding="10dp"
+                android:text="Life Mode"
+                android:layout_width="wrap_content"
+                android:textSize="16dp"
+                style="@style/lifeModeTitleStytle"
+                android:layout_height="wrap_content" />
+            <Switch
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:textSize="12dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/life_mode_summary"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="@string/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/exceptions"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Exceptions"
+            android:layout_width="wrap_content"
+            style="@style/lifeModeTitleStytle"
+
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/AlertDialog.AppCompat"
+            android:id="@+id/exceptions_summary"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="@string/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!---->
+        <!--<TextView-->
+            <!--android:id="@+id/ffff"-->
+            <!--android:paddingBottom="1dp"-->
+            <!--android:paddingEnd="1dp"-->
+            <!--android:layout_marginBottom="1dp"-->
+            <!--android:layout_marginEnd="1dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!---->
+
+    </LinearLayout>
+
+</LinearLayout>
