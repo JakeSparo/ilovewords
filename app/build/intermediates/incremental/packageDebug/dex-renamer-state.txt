@@ -1,7 +1,0 @@
-#Mon Apr 23 00:38:17 CST 2018
-base.0=/Users/kevin/WorkSpace/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3b84290f908848e7c2a9f2c1acf44a08b64405c6
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/kevin/WorkSpace/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a69fa09fe6e05e3a2aac975768ca8bec0726686c/classes.dex
-base.1=/Users/kevin/WorkSpace/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a69fa09fe6e05e3a2aac975768ca8bec0726686c
-file.0=/Users/kevin/WorkSpace/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3b84290f908848e7c2a9f2c1acf44a08b64405c6/classes.dex
