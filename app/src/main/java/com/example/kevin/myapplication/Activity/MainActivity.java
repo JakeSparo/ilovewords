@@ -14,9 +14,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import com.example.kevin.myapplication.R;
+import com.example.kevin.myapplication.base.BaseActivity;
 import com.example.kevin.myapplication.fragments.FourthFragment;
 import com.example.kevin.myapplication.fragments.SecondFragment;
 import com.example.kevin.myapplication.fragments.StudyFragment;
@@ -25,22 +27,11 @@ import com.example.kevin.myapplication.fragments.ThirdFragment;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
-        setSupportActionBar(myToolbar);
-//        ActionBar actionBar = getSupportActionBar();
-//        actionBar.hide();
-
-
-        ViewPager viewPager = (ViewPager)findViewById(R.id.viewPage);
-        MainAdapter adapter = new MainAdapter(getSupportFragmentManager());
-        viewPager.setAdapter(adapter);
-
+    protected int getLayoutId() {
+        return R.layout.activity_main;
     }
 
     @Override
@@ -67,6 +58,29 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View v) {
+
+    }
+
+    @Override
+    public void onInitView() {
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
+//        ActionBar actionBar = getSupportActionBar();
+//        actionBar.hide();
+
+
+        ViewPager viewPager = (ViewPager)findViewById(R.id.viewPage);
+        MainAdapter adapter = new MainAdapter(getSupportFragmentManager());
+        viewPager.setAdapter(adapter);
+    }
+
+    @Override
+    public void onInitData() {
+
     }
 
     private class MainAdapter extends FragmentPagerAdapter {

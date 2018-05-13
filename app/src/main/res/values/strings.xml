@@ -2,4 +2,7 @@
     <string name="app_name">我爱背单词</string>
     <string name="summary">我</string>
     <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- add by ted 2018-05-08 -->
+    <string name="loading">加载中…</string>
 </resources>
